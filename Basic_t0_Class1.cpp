@@ -6,7 +6,9 @@ using namespace std;
 class Sample{
 	int a;
 public:
-	Sample(int i)
+	Sample(){} //Default Constructor
+	
+	Sample(int i) //Parameterized Constructor
 	{
 	   a = i;
 	}
